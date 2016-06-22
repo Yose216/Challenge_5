@@ -34,3 +34,11 @@
 .search li:hover {
 	background-color: #41A62A;
 }
+
+.image {
+	padding: 50px;
+}
+
+.img {
+	padding: 0!important;
+}
