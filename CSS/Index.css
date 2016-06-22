@@ -42,3 +42,20 @@
 .img {
 	padding: 0!important;
 }
+
+.image img {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1
+}
+
+.textimg {
+	border: 3px solid black;
+}
+
+.textimg2 {
+	margin-top: 30px;
+	position: relative;
+}
