@@ -1,4 +1,8 @@
-/*color: #41A62A;*/
+/*color: #24890D;*/
+
+* {
+	font-family: Lato;
+}
 
 .navtopfix {
 	background-color: black;
@@ -11,5 +15,22 @@
 }
 
 .Home {
-	color: #41A62A;
+	color: #24890D;
+}
+
+.search {
+	background-color: #24890D;
+}
+
+.Home:hover {
+	background-color: #24890D;
+	color: white;
+}
+
+.navtopfix li:hover {
+	background-color: #24890D;
+}
+
+.search li:hover {
+	background-color: #41A62A;
 }
