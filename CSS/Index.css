@@ -53,9 +53,8 @@
 
 .textimg {
 	border: 3px solid black;
-}
-
-.textimg2 {
+	height: 150px;
 	margin-top: 180px;
 	position: relative;
 }
+
