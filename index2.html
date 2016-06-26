@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style2.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"    rel="stylesheet" type="text/css"\>
   <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic"      rel="stylesheet" type="text/css"\>
@@ -15,48 +15,9 @@
 <body>
   <div class="container-fluid">
 <div class="row">
-  <article class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-    <div class="partie1">
-      <h1> Audio theme Framework Demo</h1>
-          <video src="https://www.youtube.com/watch?v=ZeKaHBMKows" width="600px" height="400px"></video>
-            <p class="par1"> <a href="#">The AudioTheme Framework</a> plugin is built to work with any WordPress theme, providing the features needed for a music-oriented website and allowing you to take your content with you anywhere you go — even when switching themes..</p> 
-
-            <p class="par2">In this demo, we’ve showcased how the AudioTheme Framework will look with the Twenty Fourteen theme and a little help with this child theme we’ve created. Take a look around at the functionality for displaying gigs and venues, discography (liner notes for the web), and videos.</p>
-    </div>
-  </article>
-
-  <div class="clearfix visible-sm"></div>
-  <div class="col-lg-4 col-md-4 ">  
-    <div class="row">
-      <aside class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-        <div class="date1">
-          <h4>Upcommings gigs</h4>
-          <h5><a href="#">Spokane area</a></h5>
-          <p class="grey"><a href="#">Spokane, wa,united states</a></p>
-          <p class="grey">may, 21, 2015</p>
-        </div>
-        <div class="date2">
-          <h5><a href="#">Telluride festival</a></h5>
-          <p class="grey"><a href="#">Telluride, CO, United states</a></p>
-          <p class="grey">21, june 2015</p>
-        </div>
-        <div class="date3">
-          <h5><a href="#">Miller Auditorium</a></h5>
-          <p class="grey"><a href="#">Kalamazzo, MI, United states</a></p>
-          <p class="grey">11, October 2015</p>
-        </div>
-      </aside>
-      <aside class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-        <h4 class="glyphicon glyphicon-play-circle play"> Featured video</h4>
-                <img src="images/at.jpg" id="tof"/>
-        <p class="grey">Overview showcasing a few of the features avaible in the <a href="">Audio Theme framework</a> via the Wordpress admin</p>
-      </aside>
-    </div>
-  </div>
-<footer class="col-lg-2">
+<aside class="col-lg-2 col-lg-pull-10 md-push-12 col-xs-12">
         <div class="container-fluid">
-          <div class="leftsidebar">
-          <ul class="pull-left list-group">
+            <ul class="pull-left list-group">
             <li class="list-group-item"><a href="#">Twenty Fourteen Child Theme</a></li>
             <li class="list-group-item"><a href="#">Credits</a></li>
             <li class="list-group-item"><a href="#">Blog / News</a></li>
@@ -66,8 +27,7 @@
             <li class="list-group-item"><a href="#">GitHub</a></li>
             <li class="list-group-item"><a href="#">WordPress</a></li>
           </ul>
-        
-          <input type="text" class="form-control" id="usr" placeholder="Search..."/>
+                  <input type="text" class="form-control" id="usr" placeholder="Search..."/>
           
           <div class="foo2">
             <h4>Recent Release</h4>
@@ -83,12 +43,41 @@
             
           <p>Twenty Fourteen WordPress</p>
           <p>Child Theme by AudioTheme.</p>
-          </div>
-        </div>    
-</footer>
+                </div>    
+</aside>
+  <article class="col-lg-8 col-md-8 col-sm-12 col-xs-12 text-center">
+    <div class="partie1">
+      <h1> Audio theme Framework Demo</h1>
+          <iframe src="https://www.youtube.com/embed/uIi44Hgjpl8"  width="600" height="400" frameborder="0" allowfullscreen></iframe>
+            <p class="par1"> <a href="#">The AudioTheme Framework</a> plugin is built to work with any WordPress theme, providing the features needed for a music-oriented website and allowing you to take your content with you anywhere you go — even when switching themes..</p> 
+
+            <p class="par2">In this demo, we’ve showcased how the AudioTheme Framework will look with the Twenty Fourteen theme and a little help with this child theme we’ve created. Take a look around at the functionality for displaying gigs and venues, discography (liner notes for the web), and videos.</p>
+    </div>
+  </article>
+      <aside class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+        <div class="date1">
+          <h4>Upcommings gigs</h4>
+          <h5><a href="#">Spokane area</a></h5>
+          <p><a class="grey" href="#">Spokane, wa,united states</a></p>
+          <p class="grey">may, 21, 2015</p>
+        </div>
+        <div class="date2">
+          <h5><a href="#">Telluride festival</a></h5>
+          <p><a class="grey"href="#">Telluride, CO, United states</a></p>
+          <p class="grey">21, june 2015</p>
+        </div>
+        <div class="date3">
+          <h5><a href="#">Miller Auditorium</a></h5>
+          <p><a class="grey" href="#">Kalamazzo, MI, United states</a></p>
+          <p class="grey">11, October 2015</p>
+        </div>
+        <h4> <i class="fa fa-play"></i> Featured video</h4>
+                <img src="images/" id="tof"/>
+        <p class="grey">Overview showcasing a few of the features avaible in the <a href="#">Audio Theme framework</a> via the Wordpress admin</p>
+      </aside>
+    </div>
+  </div>
 </div>
 </div>  
 </body>
 </html>
-
-
