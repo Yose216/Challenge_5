@@ -36,11 +36,28 @@
 }
 
 .image {
-	padding: 50px;
+	margin-top: 45px;
 }
 
 .img {
 	padding: 0!important;
+}
+
+.img p, h3 {
+	padding-left: 5px;
+	color: white;
+}
+
+.img a {
+	text-decoration: none
+}
+
+.img p {
+	font-size: 12px;
+}
+
+.img h3 {
+	font-size: 18px;
 }
 
 .image img {
@@ -52,9 +69,16 @@
 }
 
 .textimg {
-	border: 3px solid black;
-	height: 150px;
-	margin-top: 180px;
+	margin-top: 190px;
 	position: relative;
+	background-color: black;
+	height: 110px;
 }
 
+.img2 {
+	height: 300px;
+}
+
+.img h3:hover, .img p:hover {
+	color: #24890D;
+}
