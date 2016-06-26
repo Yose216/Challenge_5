@@ -1,6 +1,7 @@
 body{
 width: 100%;
 height:100%;
+
 }
 
 /*.partie1{
@@ -61,5 +62,23 @@ color:black;
 color:gray;
 }
 
+.asideg{
+background-color: black;
+font-size: 15px;
+font-family: Lato;
+}
+.asideg a{
+color: white;
+}
 
+.asideg li:hover{
+color: #56A850;
+}
 
+.asideg a:hover{
+color: #56A850;
+}
+
+.list-group-item{
+background-color: black;
+}
