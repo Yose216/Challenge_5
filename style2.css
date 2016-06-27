@@ -47,6 +47,11 @@ color:#56A850;
 text-decoration: none;
 }
 
+a:hover{
+text-decoration: none;
+color: #56A850
+}
+
 #tof{
 width: 308px;
 height: 173px;
@@ -70,6 +75,10 @@ background-color: black;
 font-size: 15px;
 margin: 0;
 padding: 0;
+}
+
+.asided{
+padding:0;
 }
 
 .asideg li{
@@ -98,4 +107,16 @@ background-color: black;
 h5 {
 color:#ADADAD;
 font-style: bold;
+}
+
+.menu2{
+font-size: 12px;
+}
+
+.glyp{
+float: right;
+}
+
+.titremenug{
+text-align: center;
 }
