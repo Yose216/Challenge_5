@@ -113,3 +113,115 @@
 .img h3:hover, .img p:hover {
 	color: #24890D;
 }
+
+article{
+text-align: center;
+padding: auto;
+} 
+
+.partie1 p{
+text-align: :center;
+padding-left: 90px;
+padding-right: 90px;
+}
+
+.date1, .date2, .date3{
+line-height: 8px;
+}
+
+.date1, .date2{
+border-bottom-color: #ADADAD;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+}
+
+h4{
+text-transform: uppercase;
+border-top-color: black;
+border-top-style:solid;
+border-top-width:5px;
+text-decoration: none;
+padding-top: 5px;
+}
+
+a{
+color:#56A850;
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: none;
+color: #56A850
+}
+
+#tof{
+width: 308px;
+height: 173px;
+}
+
+#tof2{
+width:163px;
+height:163px;
+}
+
+.play{
+color:black;
+}
+
+.grey{
+color:#ADADAD;
+}
+
+.asideg{
+background-color: black;
+font-size: 15px;
+margin: 0;
+padding: 0;
+}
+
+.asided{
+padding:0;
+}
+
+.asideg li{
+border-left: none;
+border-right: none;
+border-color: #ADADAD;
+width: 100%;
+}
+
+.asideg a{
+color: white;
+}
+
+.asideg li:hover{
+background-color: #56A850;
+}
+
+.asideg a:hover{
+color: #56A850;
+}
+
+.list-group-item{
+background-color: black;
+}
+
+h5 {
+color:#ADADAD;
+font-style: bold;
+}
+
+.menu2{
+font-size: 12px;
+}
+
+.glyp{
+float: right;
+}
+
+.titremenug{
+text-align: center;
+}
+.image {
+	padding: 0!important;
+}
